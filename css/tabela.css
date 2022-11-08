@@ -1,0 +1,13 @@
+table, th, td {
+    border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table {
+    border: 1px solid;
+}
+
+ #customers th {
+    background-color: #04AA6D;
+    color: white;
+ }
