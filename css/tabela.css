@@ -1,13 +1,28 @@
 table, th, td {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border: 1px solid black;
   border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  text-align: left;
 }
 
 table {
     border: 1px solid;
 }
 
+
  #customers th {
     background-color: #04AA6D;
     color: white;
+ }
+
+ tr:nth-child(odd) {
+  background-color:#dddddd ;
+ }
+
+ tr:hover {
+  background-color: #04AA6D;
  }
